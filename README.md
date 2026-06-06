@@ -4,13 +4,13 @@ Este repositorio contiene el microservicio de **Panel de Administración (Spring
 
 ---
 
-## 📝 Descripción
+## Descripción
 
 Servicio de monitoreo visual en tiempo real para todos los microservicios activos en el sistema. Proporciona información detallada sobre el estado de salud, uso de memoria JVM, hilos y logs en caliente.
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Tech Stack
 
 *   **Lenguaje de Programación:** Java 17
 *   **Framework Principal:** Spring Boot 3
@@ -20,7 +20,7 @@ Servicio de monitoreo visual en tiempo real para todos los microservicios activo
 
 ---
 
-## 🚀 Guía de Ejecución Independiente
+## Guía de Ejecución
 
 Si desea arrancar este microservicio por separado para depuración o pruebas locales, siga estas instrucciones:
 
@@ -37,7 +37,7 @@ mvn spring-boot:run
 
 ---
 
-## 📖 Documentación del Servicio
+## Documentación del Servicio
 
 Este componente es un servicio interno de infraestructura (no expone APIs directas de negocio al cliente final). Su estado y métricas de salud pueden monitorearse a través de:
 *   **Eureka Registry:** `http://localhost:8761`
